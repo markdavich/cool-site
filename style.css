@@ -30,7 +30,9 @@
   font-size: 32pt;
   color: aliceblue;
   text-align: center;
-  border: 1px yellow solid;
+  /* border: 1px yellow solid; */
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 23px;
 }
 
@@ -54,11 +56,11 @@
   /* height: 230px; */
 }
 
-.ctr {
+/* .ctr {
   display: flex;
   align-content: center;
   align-items: center;
-}
+} */
 
 .column {
   display: flex;
@@ -67,12 +69,38 @@
 
 }
 
+.center-text {
+  text-align: center;
+}
+
 .left-block {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: stretch;
   width: var(--lft-sect-blk);
+  padding: 5%;
+  /* border: solid 1px brown; */
+}
+
+.blue-bar {
+  height: 32px !important;
+}
+
+img {
+  /* display: block; */
+  /* width: auto; */
+  height: calc(198/220 * var(--rt-sec-blk)) !important;
+  /* border: solid 2px rgb(255, 45, 220); */
 }
 
 .right-block {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: stretch;
   width: var(--rt-sec-blk);
+  padding: 2%;
 }
 
 /* * {

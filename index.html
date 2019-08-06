@@ -9,25 +9,31 @@
   <link rel="stylesheet" href="style.css">
 </head>
 
-<body style="min-height: 100%; border: 1px blue solid;">
-  <main class="main-content" style="border: 1px red solid;">
-    <header class="title-bar blue black-border">
-      <div class="title light-blue-border">
-        Hey there Mark Davich has a cool site
-      </div>
+<body>
+  <main id="main-content" class="main-flex">
+    <header id="header" class="header">
+      Header Text
     </header>
-    <section id="main" class="section-content">
-      <div class="ctr left-block">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit ducimus, reiciendis labore pariatur ex cum non
-        totam excepturi qui, suscipit assumenda dolores? At praesentium excepturi ab voluptate voluptatem minima quos.
-      </div>
-      <div class="ctr right-block">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui quibusdam eligendi temporibus eos corporis, officia
-        perspiciatis commodi unde veritatis consectetur omnis deleniti animi ratione quia vel. Magnam distinctio commodi
-        perferendis.
+    <section id="main-section" class="content">
+      <div id="content-flex" class="content-flex ">
+        <div id="left-side" class="left-flex">
+          <div class="blue-bar"></div>
+          <div id="section-title">Section Title</div>
+          <div id="section-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit ratione dolor
+            animi, voluptatum repellendus nemo, aliquid sequi libero aut explicabo nostrum est, illum soluta! Quidem
+            quos
+            harum natus repellendus minima?</div>
+        </div>
+        <div id="right-side">
+          <div id="image">Image Goes Here</div>
+          <div id="right-title">Right Side Title</div>
+          <div id="right-side-content">Right Side Content</div>
+        </div>
       </div>
     </section>
-    <footer class="blue footer-bar">Hello</footer>
+    <footer id="footer" class="footer">
+      Footer
+    </footer>
   </main>
 </body>
 
